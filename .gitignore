@@ -1,0 +1,13 @@
+# venv und Daten ignorieren
+venv/
+__pycache__/
+*.pyc
+
+# Sensible Daten
+data/
+.env
+
+# 💻 Editor-Sachen
+.vscode/
+.idea/
+.DS_Store
