@@ -1,0 +1,34 @@
+# Glucose Forecasting with RNN
+
+This project implements a deep learning pipeline using PyTorch to predict blood glucose levels based on device measurement data. It is designed to process time-series sequences per patient and train an LSTM model to forecast future glucose values.
+
+## 🔧 Project Structure
+
+Phoenix/
+├── data/ # Input data (.parquet)
+├── notebooks/ # Exploratory notebooks
+├── src/ # All source code (models, training, preprocessing)
+├── experiments/ # Logs and metrics
+├── models/ # Saved model checkpoints
+└── main.py # Main entry point
+
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/yourusername/phoenix-glucose-rnn.git
+cd phoenix-glucose-rnn
+
+2. Create a virtual environment
+
+python3 -m venv venv
+source venv/bin/activate
+
+3. Install dependencies
+
+pip install -r requirements.txt
+
+4. Run training
+
+python main.py
